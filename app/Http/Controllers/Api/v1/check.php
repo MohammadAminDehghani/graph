@@ -1,2 +1,2 @@
 <?php
-'yes'
+echo 'yes baby';
