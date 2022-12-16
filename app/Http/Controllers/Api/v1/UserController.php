@@ -28,6 +28,11 @@ class UserController extends Controller
         $user = auth()->user();
         $token = $user->createToken('Token Name')->token();
         return $token;
+
+        return $token;
+        return $token;
+ 
+        return $token;
         return auth()->user()->createToken('Api Token For Test')->accessToken;
         return new \App\Http\Resources\v1\User(Auth::user());
     }
